@@ -1,12 +1,17 @@
 .component {
   color: blue;
-  font-size: 10px;
+  font-size: 20px;
 
   .block__element {
     margin: 10px;
     color: red;
 
-    @include my-mixin(100px);
+    @include my-mixin(120px);
+  }
+
+  .block__element--foobar {
+    color: green;
+    width: 1000px;
   }
 }
 
